@@ -129,10 +129,32 @@
 }
 
 .cta-button:hover {
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 6px 20px rgba(255, 51, 102, 0.4);
+    transform: translateY(-5px) scale(2.05);
+    box-shadow: 0 10px 400px rgba(255, 51, 102, 0.4);
 }
 
+.resume-button {
+    display: inline-block;
+    margin-top: -500px;
+    margin-bottom: 30px;
+    padding: 6px 12px; /* Reduced padding */
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px; /* Smaller text */
+    border-radius: 4px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+  
+.resume-button i {
+    margin-right: 5px;
+    font-size: 12px; /* Smaller icon */
+}
+  
+.resume-button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
 /* Animations */
 @keyframes fadeInUp {
     from {
